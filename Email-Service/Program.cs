@@ -22,8 +22,7 @@ using (var connection = factory.CreateConnection())
         channel.BasicPublish(exchange: "", routingKey: QueueName, basicProperties: null, body: body);
 
         Console.WriteLine("Se ha enviado el correo electrónico a la cola.");
-
-       
+        
     }
 }
 
