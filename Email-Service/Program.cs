@@ -23,8 +23,8 @@ using (var connection = factory.CreateConnection())
 
         Console.WriteLine("Se ha enviado el correo electrónico a la cola.");
 
-        Console.ReadLine();
+       
     }
 }
 
-Console.WriteLine("Hello, World!");
+ Console.ReadLine();
